@@ -1,200 +1,207 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Haruki Yajima",
+    "label": "B.S. Student in Information and Communication Engineering",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yajima.code@gmail.com",
+    "phone": "",
+    "url": "https://haruk1y.github.io/",
+    "summary": "B.S. student at The University of Tokyo working on machine learning systems, model efficiency, and trustworthy AI.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Tokyo",
+      "countryCode": "JP",
+      "region": "Japan"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "Haruk1y",
+        "url": "https://github.com/Haruk1y"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "haruki-yajima",
+        "url": "https://www.linkedin.com/in/haruki-yajima"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Matsui Laboratory, The University of Tokyo",
+      "position": "Undergraduate Researcher",
+      "url": "",
+      "startDate": "2025-04-01",
+      "endDate": "",
+      "summary": "Proposed a prediction-preserving pruning method for decision-tree ensembles.",
+      "location": "Tokyo, Japan",
+      "highlights": [
+        "Evaluated on 12 public tabular benchmarks.",
+        "Achieved up to around 30 percent higher compression than baseline pruning methods while preserving predictions."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "MinD in a Device",
+      "position": "Research Engineer Intern",
+      "url": "",
+      "startDate": "2024-11-01",
+      "endDate": "",
+      "summary": "Built reproducible benchmarking infrastructure for 3D reconstruction and SLAM models.",
+      "location": "Tokyo, Japan",
+      "highlights": [
+        "Standardized data and evaluation pipelines across multiple scenes.",
+        "Benchmarked runtime, memory usage, and geometric accuracy against LiDAR references.",
+        "Developed reusable experiment workflows with Weights and Biases."
+      ]
+    },
+    {
+      "name": "freee K.K.",
+      "position": "Software Engineer Intern",
+      "url": "",
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-30",
+      "summary": "Contributed to IAM services for authentication and authorization.",
+      "location": "Tokyo, Japan",
+      "highlights": [
+        "Conducted API feasibility analysis to improve login experience.",
+        "Designed and prototyped a passkey-based authentication flow.",
+        "Submitted pull requests to improve internal design system components."
+      ]
+    },
+    {
+      "name": "Rakuten",
+      "position": "Web Development Intern (One-Week Summer Short Internship 2024)",
+      "url": "",
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-31",
+      "summary": "Participated in a one-week Summer Short Internship 2024 online program.",
+      "location": "Remote",
+      "highlights": [
+        "Worked with other interns to develop a web app for disaster prevention.",
+        "Mainly handled backend processing using Python."
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "",
+      "area": "Information and Communication Engineering",
+      "studyType": "M.S. (Expected March 2028)",
+      "startDate": "2026-04-01",
+      "endDate": "2028-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "",
+      "area": "Information and Communication Engineering",
+      "studyType": "B.S. (Expected March 2026)",
+      "startDate": "2022-04-01",
+      "endDate": "2026-03-01",
+      "score": "GPA: 3.84 / 4.3",
+      "courses": [
+        "Algorithm",
+        "Computer Architecture",
+        "Computer Networks",
+        "Distributed Systems",
+        "Information Security",
+        "Operating Systems",
+        "Programming Languages",
+        "Statistical Machine Learning",
+        "Theory of Computing"
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Languages",
+      "level": "",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python (primary)",
+        "C",
+        "C++"
+      ]
+    },
+    {
+      "name": "ML",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "PyTorch",
+        "Transformers"
+      ]
+    },
+    {
+      "name": "Systems and Tools",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Linux",
+        "Git",
+        "Docker",
+        "Weights and Biases"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Japanese",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "TOEFL iBT 96/120",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Research Interests",
+      "icon": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Model compression",
+        "3D vision",
+        "Video AI safety",
+        "Distributed systems"
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "LabSpeak",
+      "summary": "Dockerized full-stack application (Next.js, FastAPI, Postgres) for research-lab conversation practice.",
+      "highlights": [
+        "Integrated LLM-based dialogue generation with streaming responses via Server-Sent Events.",
+        "Implemented real-time STT and TTS interaction for voice-based practice.",
+        "Designed a provider-agnostic interface for OpenAI-compatible APIs."
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": ""
+    },
+    {
+      "name": "PrompDojo (Gemini 3 Tokyo Hackathon)",
+      "summary": "Real-time multiplayer prompt quiz powered by Gemini.",
+      "highlights": [
+        "Awarded 3rd place out of 70 teams at Gemini 3 Tokyo Hackathon.",
+        "Built with Next.js, TypeScript, Firebase, and Gemini API.",
+        "Implemented realtime room flow, round progression, and scoring UX."
+      ],
+      "startDate": "",
+      "endDate": "",
+      "url": "https://gemini-hackathon-bay.vercel.app"
     }
   ]
 }

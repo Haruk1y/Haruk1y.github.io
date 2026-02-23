@@ -23,3 +23,16 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.text-accent {
+  color: var(--global-theme-color);
+  font-weight: 650;
+}
+
+.about-intro .post-title {
+  margin-top: 0;
+}
+
+.about-intro .profile figure {
+  margin-top: 0;
+}
