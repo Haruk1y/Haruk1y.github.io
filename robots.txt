@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://Haruk1y.github.io/sitemap.xml
+Sitemap: https://haruk1y.github.io/sitemap.xml
