@@ -37,20 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-participated-in-a-one-week-rakuten-summer-short-internship-2024-online-working-on-python-backend-processing-for-a-disaster-prevention-web-app",
-          title: 'Participated in a one-week Rakuten Summer Short Internship 2024 (online), working on Python...',
+        },{id: "news-i-have-joined-the-supercell-ai-innovation-lab",
+          title: 'I have joined the Supercell AI Innovation Lab!',
           description: "",
-          section: "News",},{id: "news-started-a-software-engineer-internship-at-freee-contributing-to-iam-services",
-          title: 'Started a Software Engineer internship at freee, contributing to IAM services.',
-          description: "",
-          section: "News",},{id: "news-joined-mind-in-a-device-as-a-research-engineer-intern-to-build-reproducible-benchmarking-pipelines-for-3d-reconstruction-and-slam",
-          title: 'Joined MinD in a Device as a Research Engineer Intern to build reproducible...',
-          description: "",
-          section: "News",},{id: "news-started-undergraduate-research-at-matsui-laboratory-focusing-on-prediction-preserving-pruning-for-decision-tree-ensembles",
-          title: 'Started undergraduate research at Matsui Laboratory, focusing on prediction-preserving pruning for decision-tree ensembles....',
-          description: "",
-          section: "News",},{id: "news-scheduled-to-join-echizen-laboratory-the-university-of-tokyo-national-institute-of-informatics-as-an-m-s-student",
-          title: 'Scheduled to join Echizen Laboratory (The University of Tokyo / National Institute of...',
+          section: "News",},{id: "news-my-first-author-paper-has-been-accepted-to-icml-2026",
+          title: 'My first-author paper has been accepted to ICML 2026!',
           description: "",
           section: "News",},{id: "projects-prompdojo-gemini-3-tokyo-hackathon",
           title: 'PrompDojo (Gemini 3 Tokyo Hackathon)',
@@ -90,30 +81,4 @@ ninja.data = [{
         handler: () => {
           window.open("/feed.xml", "_blank");
         },
-      },{
-      id: 'light-theme',
-      title: 'Change theme to light',
-      description: 'Change the theme of the site to Light',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("light");
-      },
-    },
-    {
-      id: 'dark-theme',
-      title: 'Change theme to dark',
-      description: 'Change the theme of the site to Dark',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("dark");
-      },
-    },
-    {
-      id: 'system-theme',
-      title: 'Use system default theme',
-      description: 'Change the theme of the site to System Default',
-      section: 'Theme',
-      handler: () => {
-        setThemeSetting("system");
-      },
-    },];
+      },];
