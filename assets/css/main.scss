@@ -36,3 +36,29 @@ $max-content-width: {{ site.max_width }};
 .about-intro .profile figure {
   margin-top: 0;
 }
+
+.publications-home ol.bibliography:empty::before {
+  content: "TBA.";
+}
+
+.publications ol.bibliography li .author > em {
+  font-weight: 700;
+}
+
+.publications ol.bibliography li .abbr abbr.badge {
+  color: #fff !important;
+  text-align: center;
+
+  a {
+    color: #fff !important;
+    display: block;
+    width: 100%;
+  }
+}
+
+.publications ol.bibliography li .links a.btn.disabled {
+  color: var(--global-text-color) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--global-text-color) !important;
+  opacity: 0.65;
+}

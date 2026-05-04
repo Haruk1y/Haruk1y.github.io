@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: B.S. student in Information and Communication Engineering at The University of Tokyo
 
 profile:
   align: right
@@ -17,12 +16,15 @@ announcements:
   scrollable: false
   limit: 5
 
+publications:
+  enabled: true
+
 latest_posts:
   enabled: false
 ---
+I am <span class="text-accent">Haruki Yajima</span>, a first-year master's student at The University of Tokyo.
+I am enrolled in the Department of Information and Communication Engineering at the Graduate School of Information Science and Technology.
 
-I am <span class="text-accent">Haruki Yajima</span>, a B.S. student in Information and Communication Engineering at The University of Tokyo (expected graduation: March 2026), and an incoming M.S. student (expected graduation: March 2028).
+My research interests lie in <span class="text-accent">AI safety</span> and <span class="text-accent">trustworthy AI</span>. I currently work as a research assistant with Prof. [Isao Echizen](https://research.nii.ac.jp/~iechizen/official/index-e.html) on AI safety. As an undergraduate, I worked with Prof. [Yusuke Matsui](https://yusukematsui.me/index.html) on reliable pruning methods for machine learning models. This work was accepted to ICML 2026 (CORE: A\*).
 
-My work focuses on <span class="text-accent">machine learning systems</span>, <span class="text-accent">model efficiency</span>, and <span class="text-accent">trustworthy AI</span>. I currently conduct research on prediction-preserving pruning for decision-tree ensembles and on watermarking for video generation models.
-
-I also work on practical ML systems through industry internships, including benchmark infrastructure for 3D reconstruction and SLAM at MinD in a Device.
+I am also interested in bringing AI technologies into real-world applications. At [Supercell AI Innovation Lab](https://ailab.supercell.com/), with support from Supercell, I explore new game experiences powered by AI. As an ML engineer intern at [MinD in a Device](https://mindinadevice.com/), I worked on inspection and measurement applications using 3D reconstruction technologies.

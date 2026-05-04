@@ -50,6 +50,16 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
+    <!-- Publications -->
+    {% if page.publications and page.publications.enabled %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+      </h2>
+      <div class="publications publications-home">
+        {% bibliography --group_by none %}
+      </div>
+    {% endif %}
+
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>

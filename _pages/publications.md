@@ -7,4 +7,6 @@ nav: true
 nav_order: 4
 ---
 
-TBA.
+<div class="publications">
+{% bibliography %}
+</div>
