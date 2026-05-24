@@ -7,69 +7,151 @@
       value: Tokyo, Japan
     - name: Email
       value: yajima.code@gmail.com
-    - name: Languages
-      value: Japanese (Native), English (TOEFL iBT 95/120)
+    - name: Links
+      links:
+        - name: GitHub
+          link: https://github.com/Haruk1y
+        - name: LinkedIn
+          link: https://www.linkedin.com/in/haruki-yajima
+        - name: Website
+          link: https://haruk1y.github.io/
 
 - title: Education
   type: time_table
   contents:
-    - title: B.S. in Information and Communication Engineering (Expected March 2026)
-      institution: The University of Tokyo, Tokyo, Japan
-      year: 2022 - 2026
+    - title: M.S. in Information and Communication Engineering
+      institution: The University of Tokyo
+      department: Graduate School of Information Science and Technology, Echizen Lab
+      year: Apr. 2026 - Present
       description:
-        - GPA: 3.84 / 4.3
-        - "Selected coursework: Algorithm, Computer Architecture, Computer Networks, Distributed Systems, Information Security, Operating Systems, Programming Languages, Statistical Machine Learning, Theory of Computing"
-    - title: M.S. in Information and Communication Engineering (Expected March 2028)
-      institution: The University of Tokyo, Tokyo, Japan
-      year: 2026 - 2028
+        - Conducting research on AI safety as a master's student and research assistant.
+        - Researching image protection methods against misuse of image-to-video models, such as sexual deepfakes and copyrighted-content generation, by adding imperceptible noise to input images to disrupt motion consistency in generated videos.
+        - Designing, implementing, and validating evaluations to balance generation quality and defensive effectiveness.
+      items:
+        - "Related: Research, Python, Generative AI, AI Safety"
+    - title: B.S. in Information and Communication Engineering
+      institution: The University of Tokyo
+      department: Faculty of Engineering, Matsui Lab
+      year: Apr. 2022 - Mar. 2026
+      description:
+        - "GPA: 3.86 / 4.30"
+        - Conducted undergraduate research on pruning techniques for decision-tree ensemble models.
+        - "Proposed a pruning method that achieves a strong trade-off between prediction agreement before and after pruning and compression rate; the work was accepted to ICML 2026 (CORE: A*)."
+        - "6,352 / 23,918 submissions were accepted, for an acceptance rate of 26.6%."
+      items:
+        - "Related: Research, Python, Optimization, Machine Learning, Writing"
+      linkitems:
+        - linkname: Project Page
+          link: https://haruk1y.github.io/pine-icml/
+    - title: English Language Study Abroad Program
+      institution: The University of Sheffield
+      location: Sheffield, United Kingdom
+      year: Aug. 2023
+      description:
+        - Completed a one-month English language program and attended English classes.
+        - Built communication skills and cross-cultural understanding through interaction with local students.
 
-- title: Research
+- title: Publications
   type: time_table
   contents:
-    - title: Undergraduate Researcher
-      institution: Matsui Laboratory, The University of Tokyo
-      year: 2025 - Present
+    - title: "PINE: Pruning Boosted Tree Ensembles with Conformal In-Distribution Prediction Equivalence"
+      institution: International Conference on Machine Learning (ICML)
+      year: "2026"
       description:
-        - Proposed a prediction-preserving pruning method for decision-tree ensembles.
-        - Evaluated on 12 public tabular benchmarks with up to around 30 percent higher compression while preserving predictions.
+        - Haruki Yajima and Yusuke Matsui.
+        - International conference, peer-reviewed.
+    - title: "PINE: Pruning Boosted Tree Ensembles with Conformal In-Distribution Prediction Equivalence"
+      institution: Meeting on Image Recognition and Understanding (MIRU)
+      year: "2026"
+      description:
+        - Haruki Yajima and Yusuke Matsui.
+        - Domestic conference, peer-reviewed, under review.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Engineer Intern
+    - title: AI Innovation Lab Tokyo, First Cohort (Contract)
+      institution: Supercell
+      year: Mar. 2026 - Present
+      description:
+        - Planning and developing a new AI-centered game with technical and financial support from Supercell.
+        - Leading the design and validation of LLM and generative-AI features in a two-person team, and driving prototype development.
+      items:
+        - "Related: Generative AI, Game Development, Python, TypeScript, Next.js, Firebase, GCP"
+    - title: Machine Learning Engineer Intern
       institution: MinD in a Device
-      year: 2024 - Present
+      year: Nov. 2024 - Present
       description:
-        - Built benchmarking infrastructure for SOTA 3D reconstruction and SLAM models.
-        - Standardized evaluation pipelines across multiple scenes for runtime, memory, and geometric accuracy.
-        - Developed reusable experiment workflows with Weights and Biases.
-    - title: Web Development Intern (One-Week Summer Short Internship 2024)
-      institution: Rakuten
-      year: 2024
-      description:
-        - Participated in the "Summer Short Internship 2024 - Online" program.
-        - Worked with other interns to develop a disaster-prevention web app.
-        - Mainly handled backend processing using Python.
+        - Evaluating and improving 3D reconstruction and SLAM models on customer data under real deployment conditions, while maintaining experiment infrastructure.
+        - Proposed and implemented a catenary-curve fitting method based on the physical shape of power lines to address unstable 3D reconstruction from sparse power-line point clouds; the method was adopted in the production system.
+        - For an underwater-structure reconstruction project, proposed using COLMAP Underwater, a COLMAP variant specialized for underwater scenes, and improved reconstruction quality by tuning settings and parameters for domain-specific constraints.
+        - Consolidated official implementations of multiple 3D reconstruction and SLAM models into one repository and built a reproducible Docker-based benchmark environment; compared GPU memory, runtime, and accuracy under the same conditions to recommend models for each project.
+        - Built reusable experiment infrastructure with Weights and Biases and improved comparison and sharing of evaluation results through visualizations such as segmentation-result overlays.
+      items:
+        - "Related: Python, PyTorch, Docker, AWS, Weights and Biases, 3D Reconstruction, SLAM"
     - title: Software Engineer Intern
-      institution: freee K.K.
-      year: 2024
+      institution: freee
+      year: Sep. 2024
       description:
-        - Contributed to IAM services for authentication and authorization.
-        - Designed and prototyped a passkey-based authentication flow.
+        - Worked on the IAM (Identity and Access Management) team, developing authentication and authorization infrastructure used across all products.
+        - Designed an authentication flow using passkeys to improve the login experience and prototyped passkey login in a test environment.
+        - Documented user scenarios and adoption concerns around passkeys, including device loss and registration flows.
+        - Created and merged a pull request improving the internal design system, increasing UI consistency and reusability.
+      items:
+        - "Related: TypeScript, Next.js, React, Ruby on Rails, AWS, Git"
+    - title: Application Engineer Intern
+      institution: Rakuten Group
+      year: Aug. 2024
+      description:
+        - Planned, designed, and implemented a new web application with a team in a short-term hackathon-style internship.
+        - Worked end-to-end from requirements definition to prototype development and implementation, mainly owning backend logic.
+      items:
+        - "Related: HTML, CSS, JavaScript, Django"
 
 - title: Projects
   type: time_table
   contents:
-    - title: PrompDojo (Gemini 3 Tokyo Hackathon)
-      year: Team Project
-      description: Real-time multiplayer prompt quiz application. Awarded 3rd place out of 70 teams in Gemini 3 Tokyo Hackathon.
-    - title: LabSpeak
-      year: Personal Project
-      description: Dockerized full-stack app (Next.js, FastAPI, Postgres) to simulate research lab conversations with LLM-based dialogue and voice interaction.
+    - title: PrompDojo | Gemini 3 Tokyo Hackathon
+      year: Feb. 2026 - Present
+      description:
+        - Developed a real-time competitive prompt quiz using Gemini and won 3rd place out of 70 teams.
+        - Designed a new AI x Education x Game experience where players learn prompt engineering through competition.
+        - Led specification design, technology selection, and implementation based on the team's ideas.
+      items:
+        - "Related: Next.js, TypeScript, Firebase, GCP, Gemini API, Git"
+      linkitems:
+        - linkname: Hackathon Gallery
+          link: https://cerebralvalley.ai/e/gemini-3-tokyo-hackathon/hackathon/gallery
+        - linkname: Project Page
+          link: https://haruk1y.github.io/prompdojo-project-page/
+    - title: Kotone's Atelier | Mistral Worldwide Hackathon - Tokyo edition
+      year: Feb. 2026 - Mar. 2026
+      description:
+        - Developed Kotone's Atelier, a game where players request music from abstract prompts, with the goal of making music generation more approachable.
+        - Gamified the music-generation experience by combining music generation through the ElevenLabs API with request interpretation and in-game evaluation using a fine-tuned small Mistral model.
+        - Owned ideation, specification writing, technology selection, and implementation, designing the game loop and AI pipeline end-to-end.
+      items:
+        - "Related: Next.js, TypeScript, ElevenLabs API, Mistral Fine-Tuning, Hugging Face, Weights and Biases"
+      linkitems:
+        - linkname: Hackathon Page
+          link: https://luma.com/mistralhack-tokyo?locale=ja
+        - linkname: GitHub
+          link: https://github.com/Haruk1y/Mistral_Hackathon
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: "Gemini 3 Tokyo Hackathon | 3rd Place (out of 70 teams)"
+      year: Feb. 2026
+      description:
+        - Hackathon co-hosted by Google DeepMind, Supercell, and Cerebral Valley for building new products with Gemini.
+        - Developed PrompDojo, a real-time competitive prompt quiz game.
 
 - title: Skills
   type: list
   contents:
-    - "Languages: Python (primary), C, C++"
-    - "ML: PyTorch, Transformers"
-    - "Systems and Tools: Linux, Git, Docker, Weights and Biases"
+    - "Programming: Python, C, C++, TypeScript, Ruby"
+    - "ML / Data: PyTorch, JAX, scikit-learn, NumPy, Transformers, diffusers"
+    - "Web / Cloud: Next.js, React, Ruby on Rails, Vue.js, Firebase, Supabase, AWS, GCP, Vercel"
+    - "Tools: Git, Docker, Linux, Weights and Biases, uv, ruff"
+    - "Languages: Japanese (Native), English (TOEFL iBT 96 / 120)"
