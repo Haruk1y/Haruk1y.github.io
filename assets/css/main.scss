@@ -33,12 +33,59 @@ $max-content-width: {{ site.max_width }};
   margin-top: 0;
 }
 
+.about-intro .post-header {
+  width: 100%;
+}
+
 .about-intro .profile figure {
   margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.about-intro .profile img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 575px) {
+  .about-intro {
+    .profile {
+      width: clamp(100px, 32vw, 140px);
+      max-width: 40%;
+      margin-bottom: 0.25rem;
+    }
+
+    .profile.float-right {
+      margin-left: 0.75rem;
+    }
+
+    .profile.float-left {
+      margin-right: 0.75rem;
+    }
+
+    p {
+      margin-bottom: 0.75rem;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .about-intro .profile {
+    max-width: none;
+  }
 }
 
 .publications-home ol.bibliography:empty::before {
   content: "TBA.";
+}
+
+.publications ol.bibliography li .abbr .preview {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.publications ol.bibliography li .abbr figure {
+  margin-bottom: 0;
 }
 
 .publications ol.bibliography li .author > em {

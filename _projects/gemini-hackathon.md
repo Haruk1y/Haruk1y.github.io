@@ -1,9 +1,11 @@
 ---
 layout: page
-title: PrompDojo (Gemini 3 Tokyo Hackathon)
+title: PrompDojo
 description: Realtime multiplayer prompt game, awarded 3rd out of 70 teams
 importance: 2
 category: personal
+img: assets/img/projects/prompdojo/prompdojo-thumbnail.png
+redirect: https://haruk1y.github.io/prompdojo-project-page/
 ---
 
 PrompDojo is a realtime multiplayer prompt quiz powered by Gemini.
