@@ -43,16 +43,11 @@ ninja.data = [{
           section: "News",},{id: "news-my-first-author-paper-has-been-accepted-to-icml-2026",
           title: 'My first-author paper has been accepted to ICML 2026!',
           description: "",
-          section: "News",},{id: "projects-prompdojo-gemini-3-tokyo-hackathon",
-          title: 'PrompDojo (Gemini 3 Tokyo Hackathon)',
+          section: "News",},{id: "projects-prompdojo",
+          title: 'PrompDojo',
           description: "Realtime multiplayer prompt game, awarded 3rd out of 70 teams",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gemini-hackathon/";
-            },},{id: "projects-labspeak",
-          title: 'LabSpeak',
-          description: "Full-stack app for research-lab conversation practice with LLM, STT, and TTS",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/labspeak/";
             },},{
         id: 'social-email',
         title: 'email',
