@@ -52,6 +52,9 @@
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
     <div class="author">
+      {% if entry.author_display %}
+        {{ entry.author_display }}
+      {% else %}
       {% assign author_array_size = entry.author_array | size %}
 
       {% assign author_array_limit = author_array_size %}
@@ -136,6 +139,7 @@
         >
           {{- more_authors_hide -}}
         </span>
+      {% endif %}
       {% endif %}
       {% if entry.annotation %}
         <i
