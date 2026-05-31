@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "nav-publications",
-          title: "publications",
-          description: "Publication list.",
+        },{id: "nav-research",
+          title: "research",
+          description: "Research outputs.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/research/";
           },
         },{id: "news-i-have-joined-the-supercell-ai-innovation-lab",
           title: 'I have joined the Supercell AI Innovation Lab!',
