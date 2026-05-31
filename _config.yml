@@ -302,6 +302,7 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    category,
     google_scholar_id,
     html,
     inspirehep_id,

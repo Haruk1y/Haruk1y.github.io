@@ -79,6 +79,16 @@ $max-content-width: {{ site.max_width }};
   content: "TBA.";
 }
 
+.publications .publication-group + .publication-group {
+  margin-top: 2.5rem;
+}
+
+.publications .publication-group h3 {
+  color: var(--global-text-color-light);
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
 .publications ol.bibliography li .abbr .preview {
   width: 100%;
   margin-bottom: 0.5rem;
@@ -100,6 +110,10 @@ $max-content-width: {{ site.max_width }};
     color: #fff !important;
     display: block;
     width: 100%;
+  }
+
+  div {
+    color: #fff !important;
   }
 }
 

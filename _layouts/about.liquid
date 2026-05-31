@@ -49,13 +49,13 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Publications -->
+    <!-- Research -->
     {% if page.publications and page.publications.enabled %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">publications</a>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">research</a>
       </h2>
       <div class="publications publications-home">
-        {% bibliography --group_by none %}
+        {% bibliography --group_by none --query @*[selected=true]* %}
       </div>
     {% endif %}
 
@@ -70,7 +70,7 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/research/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}

@@ -12,3 +12,7 @@
   url: https://icml.cc/
   color: "#2563eb"
   label: "ICML (CORE:A*)"
+
+"MIRU":
+  color: "#2563eb"
+  label: "MIRU"
