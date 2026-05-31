@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+heading: Haruki Yajima / 矢島陽樹
 permalink: /
 
 profile:
