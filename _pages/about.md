@@ -23,6 +23,7 @@ publications:
 latest_posts:
   enabled: false
 ---
+
 I am <span class="text-accent">Haruki Yajima</span>, a first-year master's student at The University of Tokyo.
 I am enrolled in the Department of Information and Communication Engineering at the Graduate School of Information Science and Technology.
 
