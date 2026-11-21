@@ -1,3 +1,0 @@
-# Local preview overrides (not for production deploy)
-imagemagick:
-  enabled: false

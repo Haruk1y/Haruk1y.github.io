@@ -1,10 +1,5 @@
 ---
-layout: page
 permalink: /blog/
-title: blog
-nav: true
-nav_order: 3
-nav_url: https://haruk1y.github.io/wiki/blog
+redirect_to: "https://haruk1y.github.io/wiki/blog"
+sitemap: false
 ---
-
-TBA.

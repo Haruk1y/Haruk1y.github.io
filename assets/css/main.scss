@@ -1,125 +1,109 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
-// Dimensions
-$max-content-width: {{ site.max_width }};
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
 
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill",
-  "cv",
-  "tabs",
-  "typograms",
-  "font-awesome/fontawesome",
-  "font-awesome/brands",
-  "font-awesome/solid",
-  "font-awesome/regular",
-  "tabler-icons/tabler-icons.scss",
-  "tabler-icons/tabler-icons-filled.scss",
-  "tabler-icons/tabler-icons-outline.scss"
-;
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
 
-.text-accent {
-  color: var(--global-theme-color);
-  font-weight: 650;
-}
+@import "reset";
+@import "base";
 
-.about-intro .post-title {
-  margin-top: 0;
-}
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
 
-.about-intro .post-header {
-  width: 100%;
-}
+@import "forms";
 
-.about-intro .profile figure {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
+@import "page";
+@import "archive";
+@import "sidebar";
 
-.about-intro .profile img {
-  width: 100%;
-  height: auto;
-}
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
 
-@media (max-width: 575px) {
-  .about-intro {
-    .profile {
-      width: clamp(100px, 32vw, 140px);
-      max-width: 40%;
-      margin-bottom: 0.25rem;
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
     }
 
-    .profile.float-right {
-      margin-left: 0.75rem;
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
     }
 
-    .profile.float-left {
-      margin-right: 0.75rem;
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: left;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
     }
 
-    p {
-      margin-bottom: 0.75rem;
-    }
-  }
+
 }
 
-@media (min-width: 576px) {
-  .about-intro .profile {
-    max-width: none;
-  }
-}
-
-.publications-home ol.bibliography:empty::before {
-  content: "TBA.";
-}
-
-.publications .publication-group + .publication-group {
-  margin-top: 2.5rem;
-}
-
-.publications .publication-group h3 {
-  color: var(--global-text-color-light);
-  font-size: 1.15rem;
-  margin-bottom: 1rem;
-}
-
-.publications ol.bibliography li .abbr .preview {
-  width: 100%;
-  margin-bottom: 0.5rem;
-}
-
-.publications ol.bibliography li .abbr figure {
-  margin-bottom: 0;
-}
-
-.publications ol.bibliography li .author > em {
-  font-weight: 700;
-}
-
-.publications ol.bibliography li .abbr abbr.badge {
-  color: #fff !important;
-  text-align: center;
-
-  a {
-    color: #fff !important;
+$scroll_offset : 2em;
+h1:before, .anchor:before {
+    content: '';
     display: block;
-    width: 100%;
-  }
-
-  div {
-    color: #fff !important;
-  }
+    position: relative;
+    width: 0;
+    height: $scroll_offset;
+    margin-top: -$scroll_offset;
 }
 
-.publications ol.bibliography li .links a.btn.disabled {
-  color: var(--global-text-color) !important;
-  background-color: transparent !important;
-  border: 1px solid var(--global-text-color) !important;
-  opacity: 0.65;
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
 }

@@ -1,0 +1,230 @@
+{
+  "basics": {
+    "name": "Haruki Yajima",
+    "label": "M.S. Student in Information and Communication Engineering",
+    "image": "",
+    "email": "yajima.code@gmail.com",
+    "phone": "",
+    "url": "https://haruk1y.github.io/",
+    "summary": "M.S. student at The University of Tokyo researching AI safety and trustworthy AI.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Tokyo",
+      "countryCode": "JP",
+      "region": "Japan"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Haruk1y",
+        "url": "https://github.com/Haruk1y"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "haruki-yajima",
+        "url": "https://www.linkedin.com/in/haruki-yajima"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NEC Corporation",
+      "position": "Researcher (Internship)",
+      "startDate": "2026-10",
+      "endDate": "",
+      "location": "Hybrid"
+    },
+    {
+      "name": "National Institute of Informatics (NII)",
+      "position": "Research Assistant (Part-time)",
+      "url": "https://www.nii.ac.jp/en/",
+      "startDate": "2026-04",
+      "endDate": "",
+      "location": "Tokyo, Japan (hybrid)"
+    },
+    {
+      "name": "LY Corporation",
+      "position": "Research Scientist (Internship)",
+      "url": "https://www.lycorp.co.jp/en/",
+      "startDate": "2026-08",
+      "endDate": "2026-10",
+      "location": "Tokyo, Japan (hybrid)",
+      "summary": "Virtual Human Lab."
+    },
+    {
+      "name": "DeNA",
+      "position": "AI Specialist (Internship)",
+      "url": "https://dena.com/intl/",
+      "startDate": "2026-08",
+      "endDate": "2026-09",
+      "location": "Tokyo, Japan (hybrid)",
+      "links": [
+        {
+          "name": "Improving a basketball shot value model with pose estimation (DeNA Engineering, in Japanese)",
+          "url": "https://engineering.dena.com/blog/2026/11/kbt-shot-expected-value/"
+        }
+      ]
+    },
+    {
+      "name": "Supercell",
+      "position": "AI Innovation Lab Tokyo (Contract)",
+      "startDate": "2026-03",
+      "endDate": "2026-05",
+      "location": "Tokyo, Japan (hybrid)",
+      "summary": "Built AI-powered game experiences at Google’s Shibuya campus and in Helsinki."
+    },
+    {
+      "name": "MinD in a Device",
+      "position": "Machine Learning Engineer (Internship)",
+      "url": "https://mindinadevice.com/",
+      "startDate": "2024-11",
+      "endDate": "2026-05",
+      "location": "Tokyo, Japan (remote)",
+      "summary": "Worked on 3D computer vision projects as a machine learning engineer."
+    },
+    {
+      "name": "freee",
+      "position": "Software Engineer Intern",
+      "url": "https://corp.freee.co.jp/",
+      "startDate": "2024-09-01",
+      "endDate": "2024-09-30",
+      "location": "Tokyo, Japan",
+      "highlights": [
+        "Worked on the IAM (Identity and Access Management) team, developing authentication and authorization infrastructure used across all products."
+      ]
+    },
+    {
+      "name": "Rakuten Group",
+      "position": "Application Engineer Intern",
+      "url": "https://global.rakuten.com/corp/",
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-31",
+      "location": "Remote",
+      "highlights": ["Planned, designed, and implemented a new web application with a team in a short-term hackathon-style internship."]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/",
+      "area": "Graduate School of Information Science and Technology, Department of Information and Communication Engineering, Echizen Lab",
+      "studyType": "M.S. in Information and Communication Engineering",
+      "startDate": "2026-04-01",
+      "endDate": ""
+    },
+    {
+      "institution": "The University of Tokyo",
+      "location": "Tokyo, Japan",
+      "url": "https://www.u-tokyo.ac.jp/en/",
+      "area": "Faculty of Engineering, Department of Information and Communication Engineering, Matsui Lab",
+      "studyType": "B.S. in Information and Communication Engineering",
+      "startDate": "2022-04-01",
+      "endDate": "2026-03-01"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MIRU Audience Award (top 1.6%)",
+      "date": "2026-08-06",
+      "awarder": "MIRU 2026",
+      "url": "https://miru-committee.github.io/miru2026/en/author/award/"
+    },
+    {
+      "title": "MIRU Student Encouragement Award",
+      "date": "2026-08-06",
+      "awarder": "MIRU 2026",
+      "url": "https://miru-committee.github.io/miru2026/en/author/award/"
+    },
+    {
+      "title": "Gemini 3 Tokyo Hackathon | 3rd Place (out of 70 teams)",
+      "date": "2026-02-01",
+      "url": "https://cerebralvalley.ai/e/gemini-3-tokyo-hackathon/hackathon/gallery"
+    }
+  ],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "PINE: Pruning Boosted Tree Ensembles with Conformal In-Distribution Prediction Equivalence",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2026",
+      "url": "https://haruk1y.github.io/pine-icml/",
+      "summary": "Haruki Yajima and Yusuke Matsui. International conference, peer-reviewed."
+    },
+    {
+      "name": "PINE: 分布内領域での予測一致を保証する決定木アンサンブルプルーニング",
+      "publisher": "Meeting on Image Recognition and Understanding (MIRU)",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "矢島陽樹, 松井勇佑. Domestic conference, peer-reviewed. Oral Presentation (33.5% oral presentation rate). MIRU Audience Award and MIRU Student Encouragement Award."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "icon": "",
+      "keywords": ["Python", "C", "C++", "TypeScript", "Ruby"]
+    },
+    {
+      "name": "ML / Data",
+      "level": "",
+      "icon": "",
+      "keywords": ["PyTorch", "JAX", "scikit-learn", "NumPy", "Transformers", "diffusers"]
+    },
+    {
+      "name": "Web / Cloud",
+      "level": "",
+      "icon": "",
+      "keywords": ["Next.js", "React", "Ruby on Rails", "Vue.js", "Firebase", "Supabase", "AWS", "GCP", "Vercel"]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "icon": "",
+      "keywords": ["Git", "Docker", "Linux", "Weights and Biases", "uv", "ruff"]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "icon": "",
+      "keywords": ["Japanese (Native)", "English (TOEFL iBT 96 / 120)"]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "PrompDojo | Gemini 3 Tokyo Hackathon",
+      "summary": "Developed a real-time competitive prompt quiz using Gemini and won 3rd place out of 70 teams.",
+      "startDate": "2026-02-01",
+      "endDate": "",
+      "url": "https://prompdojo.cloud.run/",
+      "links": [
+        {
+          "name": "Hackathon Gallery",
+          "url": "https://cerebralvalley.ai/e/gemini-3-tokyo-hackathon/hackathon/gallery"
+        },
+        {
+          "name": "Project Page",
+          "url": "https://haruk1y.github.io/prompdojo-project-page/"
+        },
+        {
+          "name": "Demo",
+          "url": "https://prompdojo.cloud.run/"
+        },
+        {
+          "name": "Hackathon photo 1",
+          "url": "/assets/img/projects/prompdojo/prompdojo-1.jpg"
+        },
+        {
+          "name": "Hackathon photo 2",
+          "url": "/assets/img/projects/prompdojo/prompdojo-2.jpg"
+        }
+      ]
+    }
+  ]
+}
