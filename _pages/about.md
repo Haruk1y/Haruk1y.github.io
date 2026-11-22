@@ -65,16 +65,13 @@ My research interests lie in **AI safety** and **trustworthy AI**. I currently w
 {: #experience}
 
 {% for job in site.data.resume.work %}
-- *{% include date-range.html entry=job %}*, **{{ job.position }}**, {% if job.url %}[{{ job.name }}]({{ job.url }}){% else %}{{ job.name }}{% endif %}, {{ job.location }}.
+- *{% include date-range.html entry=job %}*, **{% if job.url %}[{{ job.name }}]({{ job.url }}){% else %}{{ job.name }}{% endif %}**, {{ job.position }}.
   {%- for detail in job.highlights %}
   - {{ detail }}
   {%- endfor %}
-  {%- if job.summary %}
-  - {{ job.summary }}
+  {%- if job.summary or job.links %}
+  - {{ job.summary }}{% for link in job.links %} ([{{ link.name }}]({{ link.url }})){% endfor %}
   {%- endif %}
-  {%- for link in job.links %}
-  - [{{ link.name }}]({{ link.url }})
-  {%- endfor %}
 {%- endfor %}
 
 # Projects

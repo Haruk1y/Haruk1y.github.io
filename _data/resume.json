@@ -31,17 +31,17 @@
     {
       "name": "NEC Corporation",
       "position": "Researcher (Internship)",
+      "url": "https://group.nec/global/en/",
       "startDate": "2026-10",
       "endDate": "",
-      "location": "Hybrid"
+      "summary": "Research on AI safety."
     },
     {
       "name": "National Institute of Informatics (NII)",
       "position": "Research Assistant (Part-time)",
       "url": "https://www.nii.ac.jp/en/",
       "startDate": "2026-04",
-      "endDate": "",
-      "location": "Tokyo, Japan (hybrid)"
+      "endDate": ""
     },
     {
       "name": "LY Corporation",
@@ -49,8 +49,7 @@
       "url": "https://www.lycorp.co.jp/en/",
       "startDate": "2026-08",
       "endDate": "2026-10",
-      "location": "Tokyo, Japan (hybrid)",
-      "summary": "Virtual Human Lab."
+      "summary": "Researched human motion generation at the Virtual Human Lab."
     },
     {
       "name": "DeNA",
@@ -58,10 +57,10 @@
       "url": "https://dena.com/intl/",
       "startDate": "2026-08",
       "endDate": "2026-09",
-      "location": "Tokyo, Japan (hybrid)",
+      "summary": "Worked on 3D pose estimation for basketball.",
       "links": [
         {
-          "name": "Improving a basketball shot value model with pose estimation (DeNA Engineering, in Japanese)",
+          "name": "Blog",
           "url": "https://engineering.dena.com/blog/2026/11/kbt-shot-expected-value/"
         }
       ]
@@ -71,7 +70,6 @@
       "position": "AI Innovation Lab Tokyo (Contract)",
       "startDate": "2026-03",
       "endDate": "2026-05",
-      "location": "Tokyo, Japan (hybrid)",
       "summary": "Built AI-powered game experiences at Google’s Shibuya campus and in Helsinki."
     },
     {
@@ -80,27 +78,24 @@
       "url": "https://mindinadevice.com/",
       "startDate": "2024-11",
       "endDate": "2026-05",
-      "location": "Tokyo, Japan (remote)",
       "summary": "Worked on 3D computer vision projects as a machine learning engineer."
     },
     {
       "name": "freee",
-      "position": "Software Engineer Intern",
+      "position": "Software Engineer (Internship)",
       "url": "https://corp.freee.co.jp/",
       "startDate": "2024-09-01",
       "endDate": "2024-09-30",
-      "location": "Tokyo, Japan",
       "highlights": [
         "Worked on the IAM (Identity and Access Management) team, developing authentication and authorization infrastructure used across all products."
       ]
     },
     {
       "name": "Rakuten Group",
-      "position": "Application Engineer Intern",
+      "position": "Application Engineer (Internship)",
       "url": "https://global.rakuten.com/corp/",
       "startDate": "2024-08-01",
       "endDate": "2024-08-31",
-      "location": "Remote",
       "highlights": ["Planned, designed, and implemented a new web application with a team in a short-term hackathon-style internship."]
     }
   ],
