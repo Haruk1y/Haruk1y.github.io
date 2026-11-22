@@ -33,7 +33,7 @@
       "position": "Researcher (Internship)",
       "url": "https://group.nec/global/en/",
       "startDate": "2026-10",
-      "endDate": "",
+      "endDate": "2026-11",
       "summary": "Research on AI safety."
     },
     {
@@ -48,7 +48,7 @@
       "position": "Research Scientist (Internship)",
       "url": "https://www.lycorp.co.jp/en/",
       "startDate": "2026-08",
-      "endDate": "2026-10",
+      "endDate": "2026-11",
       "summary": "Researched human motion generation at the Virtual Human Lab."
     },
     {
@@ -56,7 +56,7 @@
       "position": "AI Specialist (Internship)",
       "url": "https://dena.com/intl/",
       "startDate": "2026-08",
-      "endDate": "2026-09",
+      "endDate": "",
       "summary": "Worked on 3D pose estimation for basketball.",
       "links": [
         {
