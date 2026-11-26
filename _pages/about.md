@@ -15,7 +15,6 @@ My research interests lie in **AI safety** and **trustworthy AI**. I currently w
 # 🔥 News
 {: #news}
 
-- *2026.11.01* I joined the organizing team for [Manga109](https://manga109.github.io/manga109-project-website/ja/index.html), the world's largest manga dataset licensed for research.
 - *2026.05.01* My first-author paper has been accepted to ICML 2026!
 - *2026.03.23* I have joined the Supercell AI Innovation Lab!
 
